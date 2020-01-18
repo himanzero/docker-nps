@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER himanzero <noemail@gmail.com>
 
 WORKDIR /
-ENV NPS_VERSION 0.26.0
+ENV NPS_VERSION 0.26.1
 ENV NPS_RELEASE_URL https://github.com/cnlh/nps/releases/download/v${NPS_VERSION}/linux_amd64_server.tar.gz
 
 # 根据项目文档，使用web模式时，服务端执行文件必须在项目根目录，

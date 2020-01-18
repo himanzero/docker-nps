@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER himanzero <noemail@gmail.com>
 
 WORKDIR /
-ENV NPC_VERSION 0.26.0
+ENV NPC_VERSION 0.26.1
 ENV NPC_RELEASE_URL https://github.com/cnlh/nps/releases/download/v${NPC_VERSION}/linux_amd64_client.tar.gz
 
 RUN set -x && \
